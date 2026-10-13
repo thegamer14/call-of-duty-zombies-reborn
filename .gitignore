@@ -1,0 +1,6 @@
+# upload work area
+.work/
+
+# python
+__pycache__/
+*.pyc

@@ -1,0 +1,6 @@
+{
+  "name": "Call Of Duty Zombies Re:born",
+  "author": "Liam McCormack",
+  "description": "Launcher for the multiplayer maps ported to zombies: a QUICK LAUNCH page on the main lobby, loading screens and menu art that usermaps alone cannot load, and a few read-only debug commands.",
+  "version": "2.0"
+}
