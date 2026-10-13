@@ -60,7 +60,7 @@ Fetch "$RawBase/maps.manifest.json" $manifestPath
 $manifest = Get-Content $manifestPath -Raw | ConvertFrom-Json
 $available = $manifest.maps
 if (-not $available) { throw "map manifest has no maps" }
-Write-Host "  $($available.PSObject.Properties.Count) maps from $($manifest.source.repo)@$($manifest.source.tag)"
+Write-Host "  $(@($available.PSObject.Properties).Count) maps from $($manifest.source.repo)@$($manifest.source.tag)"
 
 # --- mod package ---
 Write-Host "`n[2/4] installing launcher mod"
