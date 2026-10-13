@@ -1,5 +1,227 @@
 {
-  "generated": 0,
-  "host": "pixeldrain",
-  "maps": {}
+  "generated": 1791890309,
+  "host": "github-release",
+  "source": {
+    "repo": "Liam-McCormack-Github/bo2-release-builds",
+    "tag": "usermaps-2026-10-02"
+  },
+  "maps": {
+    "zm_bridge": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_bridge.zip",
+      "size": 757002069,
+      "sha256": "f4e4f31aa5f9a3a6639cb0be9f86b02c5e586a427c956a32c5fb9b2bfc5f49b5",
+      "build_id": "576cce44-4ba5-43da-a854-9d10c6e7b077",
+      "built_at": "2026-10-02T11:24:16Z"
+    },
+    "zm_carrier": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_carrier.zip",
+      "size": 641527490,
+      "sha256": "458896c148d6f0f63ec4a3f63bffa8cbdb83059f0398bea8ca2cbf7d39a31c96",
+      "build_id": "fdddbf88-726b-4495-ba1f-01e4aa3dfbf6",
+      "built_at": "2026-10-02T11:25:10Z"
+    },
+    "zm_castaway": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_castaway.zip",
+      "size": 679963807,
+      "sha256": "542009282ea6d4a806a8f2fef174b4ab1c700c356017611f1ae07b3e9c9c58d2",
+      "build_id": "26b54164-9c78-4270-826c-bdae3ab2a520",
+      "built_at": "2026-10-02T11:26:01Z"
+    },
+    "zm_concert": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_concert.zip",
+      "size": 708458434,
+      "sha256": "16439e68b3e228284fce0623a7bbb90ec0890817216ffff28af91cc35f37159a",
+      "build_id": "4d3f3ac0-a539-404a-a868-27bf4c0f7efd",
+      "built_at": "2026-10-02T11:26:52Z"
+    },
+    "zm_dig": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_dig.zip",
+      "size": 677301173,
+      "sha256": "8ac365b0af8262145927e812dcc047028f80aa8e8dc47ab5d5a231412165cf76",
+      "build_id": "852a9cec-34b3-4e06-bb5e-ada851dec1e2",
+      "built_at": "2026-10-02T11:27:50Z"
+    },
+    "zm_dockside": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_dockside.zip",
+      "size": 629110552,
+      "sha256": "09de3deb32d4be87812743b3c23feedcb0683ad72b6e5732e758c6aecc3f6e36",
+      "build_id": "6f9b356d-2f7a-4500-bcc8-d7e3d177d2ac",
+      "built_at": "2026-10-02T11:28:41Z"
+    },
+    "zm_downhill": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_downhill.zip",
+      "size": 743744196,
+      "sha256": "e2c78bf06f4874ba2107274a212cb096405829e0ccf8c3cc022267a31569fd82",
+      "build_id": "16fe347c-de6d-40ce-bc7c-3900eca6390f",
+      "built_at": "2026-10-02T11:29:36Z"
+    },
+    "zm_drone": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_drone.zip",
+      "size": 635819057,
+      "sha256": "79bd02a3c69fa807748a33fb562fb2387213b018dbee5859b461474fb9ace394",
+      "build_id": "a402e0a5-617f-4508-80bb-de602d6110bf",
+      "built_at": "2026-10-02T11:30:36Z"
+    },
+    "zm_express": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_express.zip",
+      "size": 663503087,
+      "sha256": "38502c837bc38b8b10aa519402c9faaa988a295a81f389484964652efa833897",
+      "build_id": "dc20ea18-862d-49fd-88a1-384b72c45c66",
+      "built_at": "2026-10-02T11:31:36Z"
+    },
+    "zm_frostbite": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_frostbite.zip",
+      "size": 788123677,
+      "sha256": "92324a8b24a105791005fdea5abe57ac37f3abda670a56b0680ecb74c493b0b0",
+      "build_id": "87f9bc2e-790d-47c3-88fc-b11f1b150094",
+      "built_at": "2026-10-02T11:32:30Z"
+    },
+    "zm_hijacked": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_hijacked.zip",
+      "size": 620669400,
+      "sha256": "7885c0e141c8a60919f900ac7ce678e6fe028ab0802d82ba606f16b8aac4daeb",
+      "build_id": "4b12fe48-57a5-44b4-ac7c-dfb20b557b9d",
+      "built_at": "2026-10-02T11:33:34Z"
+    },
+    "zm_hydro": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_hydro.zip",
+      "size": 705795688,
+      "sha256": "94cf73f17a2dfac588390b3c31bad3020348ec70d0fc4a20389ffb0df6350c2b",
+      "build_id": "53548f79-e502-4b53-bbf9-e9087b15d9f4",
+      "built_at": "2026-10-02T11:34:27Z"
+    },
+    "zm_la": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_la.zip",
+      "size": 655258025,
+      "sha256": "3ac9af9d67b9a67cae9e2b9a1e2511e1f7376e9db26ef2ed2d58cb47feb5f94d",
+      "build_id": "49d47481-b2ee-410e-8ce5-f7b3ef37e601",
+      "built_at": "2026-10-02T11:35:24Z"
+    },
+    "zm_magma": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_magma.zip",
+      "size": 735291200,
+      "sha256": "69614676014f613cec9577ab6fead126865713f51f5a91e5fdabf321102b5c08",
+      "build_id": "c5817be8-2a39-4ce1-9d54-7902dd82bd2e",
+      "built_at": "2026-10-02T11:36:21Z"
+    },
+    "zm_meltdown": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_meltdown.zip",
+      "size": 636346186,
+      "sha256": "f8d36ec5dc044a623a1a32bd0574d4b94622530d95fb90f38b3081b2bc3605d5",
+      "build_id": "41a9a9df-cdf6-42bf-80fc-aa437be3db62",
+      "built_at": "2026-10-02T11:37:22Z"
+    },
+    "zm_mirage": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_mirage.zip",
+      "size": 746275194,
+      "sha256": "ab57bcedb0dde9b3b1c2a18bc9ae0d3556ec6c1a337fd8e8679f536336f30e48",
+      "build_id": "02c649f5-d182-47dd-8521-d34e2f727813",
+      "built_at": "2026-10-02T11:38:19Z"
+    },
+    "zm_nightclub": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_nightclub.zip",
+      "size": 660279878,
+      "sha256": "a6a648232eb18be656be334060e6d70a620d08737612555dd680fb86eb024fe1",
+      "build_id": "81b9e983-de7c-4ca4-8c69-c381b776c169",
+      "built_at": "2026-10-02T11:39:17Z"
+    },
+    "zm_nuketown_2020": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_nuketown_2020.zip",
+      "size": 721332273,
+      "sha256": "44f2bf4d799f7630e5c60334f772122cfdd9e0732b5bf86b5f6128ddfe966b0d",
+      "build_id": "a34ff6b6-e193-4cb9-a80e-0d2542f5a95f",
+      "built_at": "2026-10-02T12:11:34Z"
+    },
+    "zm_overflow": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_overflow.zip",
+      "size": 648900991,
+      "sha256": "3f4215516f459cb02fa54786f7dd43630e6f18307d1e71728181fc39403d9fac",
+      "build_id": "ee28c97d-5a61-40d6-be9e-f652a53a3371",
+      "built_at": "2026-10-02T11:41:12Z"
+    },
+    "zm_paintball": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_paintball.zip",
+      "size": 737167723,
+      "sha256": "b47145b2e3a9de9dda7043b29614acfc4edbbfce0887c85473224674918f8f1c",
+      "build_id": "53951fc4-ce2b-43d0-94a5-cefb75814ec1",
+      "built_at": "2026-10-02T11:42:10Z"
+    },
+    "zm_pod": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_pod.zip",
+      "size": 728122969,
+      "sha256": "8a696af55af8322764736791debf1f4fea0eef84de3d31db9352ccdbac58afb0",
+      "build_id": "c590a110-e7c3-4b41-9d48-690b1d68e0c9",
+      "built_at": "2026-10-02T11:43:08Z"
+    },
+    "zm_raid": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_raid.zip",
+      "size": 625052664,
+      "sha256": "2cf2f93f75d97411bb45e73cc001725609cbfa3e02ca8cc5c21a9e6ab82f31fb",
+      "build_id": "48e99fa8-e36f-4160-8c41-85499c3629ff",
+      "built_at": "2026-10-02T11:44:04Z"
+    },
+    "zm_skate": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_skate.zip",
+      "size": 698231730,
+      "sha256": "926a9e6be314b47ff03d9b4c9ab2d619a9b99c7a1796966d6db2c2aaa74b92b1",
+      "build_id": "efcac66e-461c-4296-90c3-5f514d90c5ec",
+      "built_at": "2026-10-02T11:45:03Z"
+    },
+    "zm_slums": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_slums.zip",
+      "size": 626931036,
+      "sha256": "b7d22e7e13ff0a0d7d4581cb417e2df55e6817db15c04fe0a68c4fc34dd43eed",
+      "build_id": "d8576cde-9830-4ad9-8234-054d96a8688c",
+      "built_at": "2026-10-02T11:46:03Z"
+    },
+    "zm_socotra": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_socotra.zip",
+      "size": 639404231,
+      "sha256": "7fa766edcd22115155597d0aa7518687c90ef91f5b64b7754c0e5f80a2f5ff9d",
+      "build_id": "ee88dfdc-711b-49e1-bb2c-45e56ad6079b",
+      "built_at": "2026-10-02T11:47:01Z"
+    },
+    "zm_studio": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_studio.zip",
+      "size": 750949219,
+      "sha256": "dbb1b897b0f09e2925d414766cde0b6416cb7d38bcbaf38d6b188aeec3ae882f",
+      "build_id": "315d8a76-7baa-4858-9ba9-67dc4f378a8e",
+      "built_at": "2026-10-02T11:48:03Z"
+    },
+    "zm_takeoff": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_takeoff.zip",
+      "size": 704040704,
+      "sha256": "825cbd01ca1ab2f609b88ff47fe373c1abdc3fe161bc5238c309d291061e3264",
+      "build_id": "9caec621-047a-47f1-9163-9a0994b0290f",
+      "built_at": "2026-10-02T11:49:03Z"
+    },
+    "zm_turbine": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_turbine.zip",
+      "size": 650688463,
+      "sha256": "7d1edb5c13fc6fb1d8e5a5bbf071bc8b44898c96642909e6f676df63935e1086",
+      "build_id": "3b86f4c2-8195-4830-a9f6-c8c7a6c445fb",
+      "built_at": "2026-10-02T11:50:01Z"
+    },
+    "zm_uplink": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_uplink.zip",
+      "size": 710016391,
+      "sha256": "ec4ad2d9dfb2230301c91c71ab7be66ee226f5557e8e679a1778044638c8e7c6",
+      "build_id": "1d4c141f-1a8d-4496-9660-ab9f682c4b3a",
+      "built_at": "2026-10-02T11:50:57Z"
+    },
+    "zm_vertigo": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_vertigo.zip",
+      "size": 687627132,
+      "sha256": "3b9f16b03d5286f1b59f4beef1e9af307c60ad9a311c537d3b34b3f80018f1bf",
+      "build_id": "745a9c15-e8e3-478c-b368-e7c952a25bb1",
+      "built_at": "2026-10-02T11:51:57Z"
+    },
+    "zm_village": {
+      "url": "https://github.com/Liam-McCormack-Github/bo2-release-builds/releases/download/usermaps-2026-10-02/zm_village.zip",
+      "size": 660877337,
+      "sha256": "88568d27991e5cc9909014d71255eaffcd10d05ecc03cd72c7f7a3f9913f77a4",
+      "build_id": "26fa356a-12b3-4edd-b0f5-ef9daee03bf5",
+      "built_at": "2026-10-02T11:53:01Z"
+    }
+  }
 }

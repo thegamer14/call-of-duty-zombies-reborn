@@ -12,10 +12,12 @@ and a handful of read-only debug commands.
 |------|------------|
 | `mod/src/` | The mod source (GSC scripts, Lua menus, CSVs, loading-screen images). Packed into `mod.iwd`. |
 | `mod/mod.json` | Mod manifest shown by Plutonium (name, version). |
+| `mod/mod.iwd` | The packed mod archive (built from `mod/src`). |
+| `mod/mod.ff` | The mod fastfile that ships alongside `mod.iwd`. |
 | `tools/build_mod.py` | Packs `mod/src` into `mod/mod.iwd`. |
-| `tools/upload_maps.py` | Zips each usermap and uploads it to Pixeldrain; writes `maps.manifest.json`. |
+| `tools/update_manifest.py` | Reads the map-host GitHub release and writes `maps.manifest.json` (URLs + SHA256). |
 | `installer/Install-Reborn.ps1` | End-user installer: pulls the mod + selected maps and drops them into Plutonium storage. |
-| `maps.manifest.json` | Map host manifest (Pixeldrain file IDs + SHA256 checksums) consumed by the installer. |
+| `maps.manifest.json` | Map host manifest consumed by the installer. |
 
 ## Install (players)
 
@@ -41,27 +43,25 @@ C:\Python314\python.exe tools\build_mod.py
 
 This packs `mod/src` into `mod/mod.iwd` and sanity-checks the archive.
 
-## Add / re-upload maps (maintainers)
+## Refresh the map manifest (maintainers)
 
-Set your Pixeldrain API key, then run the uploader. It zips each usermap folder,
-uploads it, and records the file ID + SHA256 into `maps.manifest.json`.
+Map zips are built and released in
+[Liam-McCormack-Github/bo2-release-builds](https://github.com/Liam-McCormack-Github/bo2-release-builds).
+When a new `usermaps-*` tag is published, regenerate the manifest and commit it:
 
 ```powershell
-$env:PIXELDRAIN_API_KEY = "<your key>"
-C:\Python314\python.exe tools\upload_maps.py            # all maps
-C:\Python314\python.exe tools\upload_maps.py --only zm_hijacked zm_la
+C:\Python314\python.exe tools\update_manifest.py                     # defaults
+C:\Python314\python.exe tools\update_manifest.py --tag usermaps-YYYY-MM-DD
 ```
 
-Maps are read from `%LOCALAPPDATA%\Plutonium\storage\t6\usermaps`. Already-uploaded
-maps (present in the manifest with an ID + checksum) are skipped, so you can run
-this incrementally as you add maps.
+`GITHUB_TOKEN` in the environment is optional (raises the API rate limit).
 
 ## Hosting
 
 - **Code + installer + manifest** live in this GitHub repo.
-- **Map binaries** (~26 GB total) are hosted on [Pixeldrain](https://pixeldrain.com)
-  and referenced by `maps.manifest.json`. Pixeldrain free files renew their 60-day
-  expiry each time they're downloaded, so popular maps stay up indefinitely.
+- **Map binaries** (~20 GB total) are hosted as release assets on the
+  [bo2-release-builds](https://github.com/Liam-McCormack-Github/bo2-release-builds/releases)
+  repo and referenced by `maps.manifest.json` (URL + size + SHA256 per map).
 
 ## Notes
 
