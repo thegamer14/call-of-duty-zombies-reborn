@@ -22,10 +22,10 @@ and a handful of read-only debug commands.
 ## Install (players)
 
 1. Make sure Plutonium BO2 is installed and has been run at least once.
-2. Open PowerShell and run:
+2. Open PowerShell and paste this:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File installer\Install-Reborn.ps1
+iwr https://raw.githubusercontent.com/thegamer14/call-of-duty-zombies-reborn/main/installer/Install-Reborn.ps1 -OutFile $env:TEMP\Install-Reborn.ps1; powershell -ExecutionPolicy Bypass -File $env:TEMP\Install-Reborn.ps1
 ```
 
 Pick the maps you want (or `-All` for everything). The installer downloads the
